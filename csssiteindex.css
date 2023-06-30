@@ -1,0 +1,54 @@
+/* Estilos CSS para o cabeçalho e conteúdo */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(to right, #f6422e, #ff6433);
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 150px;
+}
+
+.logo {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  width: 25%;
+  height: 30px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -300px; /* Ajuste a distância vertical (para cima) conforme necessário */
+  transform: translateX(-700px); /* Ajuste a distância horizontal (para a esquerda) conforme necessário */
+}
+
+.content img {
+  width: 600px;
+}
